@@ -1,1 +1,1 @@
-# Crowd-Size-Estimation
+The project aims for real-time people detection and counting. It uses a pre-trained model to identify people within video frames captured from a camera. The detected people are then counted, and the count is periodically sent to a ThingSpeak channel for data storage. The code leverages OpenCV and imutils for image processing, HOGDescriptor for object detection, and non-max suppression for filtering overlapping detections.
